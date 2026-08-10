@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(gh auth *)",
-      "Bash(echo \"EXIT:$?\")"
+      "Bash(echo \"EXIT:$?\")",
+      "Bash(npm install *)",
+      "Bash(npm ls *)"
     ]
   }
 }
